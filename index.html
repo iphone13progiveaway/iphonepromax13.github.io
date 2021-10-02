@@ -505,6 +505,16 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/fitty.min.js"></script>
     <script src="js/main.js"></script>
+	<script>
+jQuery(document).ready(function(){
+  jQuery(function() {
+        jQuery(this).bind("contextmenu", function(event) {
+            event.preventDefault();
+            alert('Right click is disabled on this site!!')
+        });
+    });
+});
+</script>
 
 </body>
 
